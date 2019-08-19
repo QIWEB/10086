@@ -1,0 +1,75 @@
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html ng-app="error">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>页面错误_中国移动积分商城</title>
+<link rel="stylesheet" type="text/css" href="/resources/css/public.css" />
+<link rel="stylesheet" type="text/css" href="/resources/css/layout.css" />
+<script src="/resources/scripts/common/commonJsImport.js"></script>
+<script src="/resources/scripts/common/mCommonHead.js" charset="utf-8"></script>
+<script src="/resources/scripts/common/mCommonFoot.js" charset="utf-8"></script>
+</head>
+<script type="text/javascript">
+var showMessage = '系统忙，请稍后重试';
+var returnPage = null;
+var error = angular.module('error',['ui.router','ai.basic','CommontHead','CommonFoot']);
+error.config(['$stateProvider','$urlRouterProvider',function($stateProvider,$urlRouterProvider){
+	$urlRouterProvider.otherwise('');
+	$stateProvider.state('error',{
+		url:'',
+		views:{
+			'commonHead':{
+				templateUrl:'/views/common/commonHead.html'
+			},
+			'commonFoot':{
+				templateUrl:'/views/common/commonFoot.html'
+			}
+		}
+	})
+}]);
+error.controller('errorCtrl',['$scope','$adapter','$CommonTitleSrv',function($scope,$adapter,$CommonTitleSrv){
+	$CommonTitleSrv.setTitle('操作失败','0');
+	if(!!showMessage){
+		$scope.showMessage = showMessage;
+	}else{
+		$scope.showMessage = '系统忙，请稍候重试';
+	}
+	if(!!returnPage){
+		$scope.button = '返回';
+	}else{
+		$scope.button = '返回首页';
+	}
+	$scope.returnPage = function(){
+		if(!!returnPage){
+			$adapter.go(returnPage,null,'',-1,true);
+		}else{
+			$adapter.index();
+		}
+	}
+}]);
+</script>
+<body ng-controller="errorCtrl">
+<div class="orderFailure">
+	<div class="orderFailure_part1">
+		<div ui-view="commonHead"></div>
+		<section class="orderFailureMain">
+	    	<div class="Img">
+	            <img src="/resources/images/defaultError.png" />
+	        </div>
+	        <div class="Txt" ng-bind="showMessage"></div>
+		    <a class="failureBtn" ng-click="returnPage()" ng-bind="button"></a>
+		</section>
+	</div>
+		<div ui-view="commonFoot"></div>
+</div>
+</body>
+</html>
