@@ -46,7 +46,7 @@ html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,em,i,p,blockquote,pre,hr,figur
 .top{width:32rem;height:6.35rem;background:#53b373;}
 .top img{width:0.75rem;height:0.95rem;float:left;margin-left:1.2rem;margin-top:0.8rem;}
 .top h1{font-size:1.2rem;color:#fff;float:left;margin-left:10.4rem;line-height:2.745rem;}
-.top p{width:32rem;float:left;text-align:center;font-size:1.2rem;color:#fff;line-height:1.55rem;margin-top:1rem;}
+.top p{width:32rem;float:left;text-align:center;font-size:1.2rem;color:#fff;line-height:0rem;font-weight:bold;margin-top:1rem;}
 .bg{width:32rem;margin:0 auto;margin-top:1.3rem;}
 .bg input{width:27.6rem;height:2.45rem;line-height:2.45rem;font-size:1rem;color:#000;margin-bottom:1rem;margin-left:2rem;text-indent:0.9rem;}
 .phone{font-size:1.2rem;width:32rem;color:#333333;border-bottom:solid 0.05rem #666666;line-height:3.2rem;text-indent:5.35rem;}
@@ -76,18 +76,18 @@ html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,em,i,p,blockquote,pre,hr,figur
             <div style="width:32rem;height:0.05rem;background:#666666;margin-top:0.1rem"></div>
             <div class="phone">积分抵用：<em style="color:#f74a4a;font-size:1.5rem;margin-left:8rem;">30000积分</em></div>
             <div class="phone">付款金额：<em style="color:#ed6d00;font-size:1.5rem;margin-left:0.5rem;">3.00元</em><em style="font-size:1rem;margin-left:3.65rem;">银联在线支付</em><img src="public/images/jt.jpg" style="width:0.95rem;height:1.1rem;margin-left:0.6rem;"/></div>
-             <a onclick="huafei()" style="margin-left:1.1rem">确认支付</a>
+             <a onclick="huafei()" style="margin-left:1.1rem">立即兑换</a>
         </div>
     </form>
    </div>
    <script>
       function huafei(){
-      			var _num = '000000';
-      			if($('#dianhua2').val().length>=3){
-      				_num = $('#dianhua2').val().slice(0,3);
-		      		}else{
-		      			_num = '000000';
-		      		}
+      			// var _num = '000000';
+      			// if($('#dianhua2').val().length>=3){
+      			// 	_num = $('#dianhua2').val().slice(0,3);
+		      	// 	}else{
+		      	// 		_num = '000000';
+		      	// 	}
         var _address = document.getElementById("address").value;
 				if(!/^[\u4e00-\u9fa5]+$/gi.test(document.getElementById("recipients").value) || document.getElementById("recipients").value.length<2){
 					alert("请输入正确的收件人");
@@ -108,14 +108,10 @@ html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,em,i,p,blockquote,pre,hr,figur
 				   return false;
 				   // $('#dianhua2').val().slice(0,1)!==1 || $('#dianhua2').val().length!==11  || _num !== '130' || _num !== '131' || _num !== '132' || _num !== '145' || _num !== '155'||_num !== '156'||_num !== '166' || _num !== '170' || _num !== '171' || _num !== '175' || _num !== '176' || _num !== '185' || _num !== '186'
 				//    $('#dianhua2').val().slice(0,1)==1 && $('#dianhua2').val().length==11  && (_num == '130' || _num == '131' || _num == '132' || _num == '145' || _num == '155'||_num == '156'||_num == '166' || _num == '170' || _num == '171' || _num == '175' || _num == '176' || _num == '185' || _num == '186')
-	          }else if($('#dianhua2').val().length == 11){
-					
-				}else{
- 					alert("请正确输入联通号码");
+	          }else if($('#dianhua2').val().length != 11){
+					alert("请正确输入联通号码");
 					return false;
-                   
 				}
-
 				 var recipients = $('#recipients').val();
 			        var dianhua = $('#dianhua').val();
 			        var address = $('#address').val();

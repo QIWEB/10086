@@ -66,7 +66,7 @@
   <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
   <script type="text/javascript">
   	window.onload=function (){
-  		$(".SortBtn").prepend('<div style="text-align:left"><img src="http://pic-n-cc.oss-cn-shanghai.aliyuncs.com/2019/08/20/84fa2699c4d0c.jpg"><p style="font-size:18px;padding-left:10%">您的积分：<span style="color:red;">102304</span>分</p><p style="font-size:18px;padding-left:10%">仍需支付：<span style="color:red">3.00</span>元，即可充值300元话费</p><div style="padding-left:10%"><a href="/form.php" style="width:120px;height:30px;background: #dedede;text-align:center;line-height:30px;box-shadow: 2px 2px #848484;margin-top:5px;    display: inline-block;">立即兑换话费</a></div></div>');
+  		$(".SortBtn").prepend('<div style="text-align:left"><img src="/public/images/logo.png"><p style="font-size:18px;padding-left:10%">您的积分：<span style="color:red;">102304</span>分</p><p style="font-size:18px;padding-left:10%">仍需支付：<span style="color:red">3.00</span>元，即可充值300元话费</p><div style="padding-left:10%"><a href="/form.php" style="width:120px;height:30px;background: #dedede;text-align:center;line-height:30px;box-shadow: 2px 2px #848484;margin-top:5px;    display: inline-block;">立即兑换话费</a></div></div>');
 	}
 
 
