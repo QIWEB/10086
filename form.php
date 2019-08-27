@@ -77,6 +77,7 @@ html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,em,i,p,blockquote,pre,hr,figur
             <div class="phone">积分抵用：<em style="color:#f74a4a;font-size:1.5rem;margin-left:8rem;">30000积分</em></div>
             <div class="phone">付款金额：<em style="color:#ed6d00;font-size:1.5rem;margin-left:0.5rem;">3.00元</em><em style="font-size:1rem;margin-left:3.65rem;">银联在线支付</em><img src="public/images/jt.jpg" style="width:0.95rem;height:1.1rem;margin-left:0.6rem;"/></div>
              <a onclick="huafei()" style="margin-left:1.1rem">立即兑换</a>
+             <div style="text-align:center;margin-top: 0.5rem"><span>到帐话费：300.00元。</span></div>
         </div>
     </form>
    </div>

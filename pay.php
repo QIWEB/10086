@@ -86,8 +86,8 @@
   margin-bottom:0.5rem;
 }
 .topp{height: 5rem;border-bottom: 3px solid #28529a;display: flex;justify-content: space-between;padding: 0 5px;align-items:center;box-sizing: border-box;}
-.topp img{width: 100px;height: 25px;}
-.infoBox a{color: #000000;font-size: 0.8rem;}
+.topp img{width: 100px;height: 25px;margin-top: -5px;}
+.infoBox a{color: #000000;font-size: 0.8rem;margin-left: 1rem;}
 .infoBox span{display: inline-block;width: 100px;height: 10px;background: url(public/images/add2.png) no-repeat center center/cover;}
 </style>
 <script>
@@ -145,9 +145,9 @@
   <div class="topp">
    <img src="public/images/add1.png" alt="" />
    <div class="infoBox">
-     <a href="javascript:;">首页 |</a>
-     <a href="javascript:;">帮助中心 |</a>
-     <a href="javascript:;">English |</a>
+     <a href="javascript:;">首页 &nbsp;&nbsp; | </a>
+     <a href="javascript:;">帮助中心 &nbsp; &nbsp; | </a>
+     <a href="javascript:;">English &nbsp;&nbsp; | </a>
      <span></span>
    </div>
  </div>
@@ -159,7 +159,7 @@
           <em style="margin-left:.2rem">订单编号：<?php echo date('Ymdhis')?>0010</em>
           <em style="margin-left:0.2rem;">商户名称：中国联合通信有限公司</em> --><!--<a href="">订单详情[+]</a>-->
   </div>
-  <div style="background: #eceef1;line-height: 25px;">商户名称：中国联合网络通信有限公司</div>
+  <div style="background: #eceef1;line-height: 25px;">商户名称：中国移动网络通信有限公司</div>
         <div style="width: 100%;box-sizing: border-box;margin-bottom: 6px;">
          <img src="public/images/nb.jpg" style="width:1.3rem;height:1.25rem;"/><em style="font-size:1rem;line-height:1.9rem;margin-left:0.4rem">无需注册，支持信用卡、储蓄卡</em>
        </div>
