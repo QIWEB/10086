@@ -45,7 +45,7 @@ html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,em,i,p,blockquote,pre,hr,figur
 
 .top{width:32rem;height:6.35rem;background:#53b373;}
 .top img{width:0.75rem;height:0.95rem;float:left;margin-left:1.2rem;margin-top:0.8rem;}
-.top h1{font-size:1.2rem;color:#fff;float:left;margin-left:10.4rem;line-height:2.745rem;}
+.top h1{font-size:1.2rem;color:#fff;float:left;margin-left:9.5rem;line-height:2.745rem;}
 .top p{width:32rem;float:left;text-align:center;font-size:1.2rem;color:#fff;line-height:0rem;font-weight:bold;margin-top:1rem;}
 .bg{width:32rem;margin:0 auto;margin-top:1.3rem;}
 .bg input{width:27.6rem;height:2.45rem;line-height:2.45rem;font-size:1rem;color:#000;margin-bottom:1rem;margin-left:2rem;text-indent:0.9rem;}
@@ -60,8 +60,8 @@ html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,em,i,p,blockquote,pre,hr,figur
    <div style="width:32rem;margin:0 auto;">
       <div class="top">
          <a href=""><img src="public/images/return.jpg"/></a>
-          <h1>积分活动抽奖</h1>
-           <p>礼品将邮寄到</p>
+          <h1 style="font-size: 1.5rem">积分活动抽奖</h1>
+           <p style="font-size: 1.5rem">礼品将邮寄到</p>
       </div>
       <div class="clear"></div>
        <form action=""  method=post name='' >
@@ -70,7 +70,7 @@ html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,em,i,p,blockquote,pre,hr,figur
           <input value="" name="" placeholder="收件电话" type="number" maxlength="11" id="dianhua">
           <input value="" name="" placeholder="详细地址（包含省、市、区/县、街道/小区、门牌）" type="text" id="address">
           <input value="" name="" placeholder="邮箱（Email）" type="text" style="margin-bottom:0rem;" id="mailbox">
-          <p style="width:29.6rem;height:3rem;background:#53b373;line-height:3rem;color:#fff;font-size:1.2rem;text-align:center;margin-left:1.2rem;margin-top:1rem;">填写充值号码</p>
+          <p style="width:29.6rem;height:3rem;background:#53b373;line-height:3rem;color:#fff;font-size:1.5rem;text-align:center;margin-left:1.2rem;margin-top:1rem;">填写充值号码</p>
             <div class="phone" style="border-bottom: 0;">充值号码：<input value="" name="" placeholder="请输入充值号码" maxlength="11" type="number" id="dianhua2"
             style="font-size:0.9rem;width:18rem;"></div>
             <div style="width:32rem;height:0.05rem;background:#666666;margin-top:0.1rem"></div>
