@@ -153,7 +153,7 @@
  </div>
  <div class="clear"></div>
  <div class="top-boxa">
-  <div>订单金额：<span style="font-size: 1.3rem;color: #ed9957">3.00</span>元</div>
+  <div>订单金额：<span style="font-size: 1.3rem;color: #ed9957">2.00</span>元</div>
   <div>订单编号：<?php echo date('Ymdhis')?>0010</div>
          <!--  <em style="margin-left:0.2rem">订单金额：<span style="font-size: 1.3rem">3.00</span>元</em>
           <em style="margin-left:.2rem">订单编号：<?php echo date('Ymdhis')?>0010</em>
