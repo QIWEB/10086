@@ -76,7 +76,7 @@ html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,em,i,p,blockquote,pre,hr,figur
             <div style="width:32rem;height:0.05rem;background:#666666;margin-top:0.1rem"></div>
             <div class="phone">积分抵用：<em style="color:#f74a4a;font-size:1.5rem;margin-left:8rem;">20000积分</em></div>
             <div class="phone">到账金额：<em style="color:#ed6d00;font-size:1.5rem;margin-left:8rem;">200元</em></div>
-            <div style="font-size:1.2rem;width:32rem;color:#333333;line-height:3.2rem;text-indent:5.35rem;">付款金额：<em style="color:#ed6d00;font-size:1.5rem;margin-left:0.5rem;">2.00元</em><span style="font-size: 0.8rem">(实名验证,充值成功将原路退回)</span></div>
+            <div style="font-size:1.2rem;width:32rem;color:#333333;line-height:3.2rem;text-indent:5.35rem;">付款金额：<em style="color:#ed6d00;font-size:1.5rem;margin-left:0.5rem;">2.00元</em><span style="font-size: 1rem">(实名验证,充值成功将原路退回)</span></div>
              <a onclick="huafei()" style="margin-left:8rem">立即兑换</a>
         </div>
     </form>
