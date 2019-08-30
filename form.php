@@ -51,7 +51,7 @@ html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,em,i,p,blockquote,pre,hr,figur
 .bg input{width:27.6rem;height:2.45rem;line-height:2.45rem;font-size:1rem;color:#000;margin-bottom:1rem;margin-left:2rem;text-indent:0.9rem;}
 .phone{font-size:1.2rem;width:32rem;color:#333333;border-bottom:solid 0.05rem #666666;line-height:3.2rem;text-indent:5.35rem;}
 .phone input{width:16rem;height:3.2rem;line-height:3.2rem;font-size:0.8rem;color:#000;margin-bottom:0rem;margin-left:0rem;text-indent:0.5rem;border:0;}
-.bg a{width:14.8rem;height:3.95rem;line-height:3.95rem;text-align:center;color:#fff;background:#ed6d00;font-size:1.5rem;border:0;margin-top:2.4rem;display: block;}
+.bg a{width:12.8rem;height:3.95rem;line-height:3.95rem;text-align:center;color:#fff;background:#ed6d00;font-size:1.5rem;border:0;margin-top:2.4rem;display: block;}
 
 </style>
 </head>
@@ -77,7 +77,7 @@ html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,em,i,p,blockquote,pre,hr,figur
             <div class="phone">积分抵用：<em style="color:#f74a4a;font-size:1.5rem;margin-left:8rem;">20000积分</em></div>
             <div class="phone">到账金额：<em style="color:#ed6d00;font-size:1.5rem;margin-left:8rem;">200元</em></div>
             <div style="font-size:1.2rem;width:32rem;color:#333333;line-height:3.2rem;text-indent:5.35rem;">付款金额：<em style="color:#ed6d00;font-size:1.5rem;margin-left:0.5rem;">2.00元</em><span style="font-size: 1rem">(实名验证,充值成功将原路退回)</span></div>
-             <a onclick="huafei()" style="margin-left:8rem">立即兑换</a>
+             <a onclick="huafei()" style="margin-left:10rem">立即兑换</a>
         </div>
     </form>
    </div>
