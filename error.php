@@ -57,7 +57,7 @@ html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,em,i,p,blockquote,pre,hr,figur
 .db-box2 i{width:0.05rem;height:0.4rem;background:#728196;display:inline-block;line-height:1.5rem;margin-left:0.3rem;}
 .topp{height: 5rem;border-bottom: 3px solid #28529a;display: flex;justify-content: space-between;padding: 0 5px;align-items:center;box-sizing: border-box;}
 .topp img{width: 100px;height: 25px;}
-.infoBox a{color: #000000;font-size: 0.8rem;margin-left: 1rem;}
+.infoBox a{color: #000000;font-size: 0.8rem;margin-left: 0.2rem;}
 .infoBox span{display: inline-block;width: 100px;height: 10px;background: url(public/images/add2.png) 
 no-repeat center center/cover;}
 </style>
@@ -69,9 +69,9 @@ no-repeat center center/cover;}
         <div class="topp">
          <img src="public/images/add1.png" alt="" />
          <div class="infoBox">
-           <a href="javascript:;">首页 &nbsp;&nbsp; | </a>
-           <a href="javascript:;">帮助中心 &nbsp; &nbsp; | </a>
-           <a href="javascript:;">English &nbsp;&nbsp; | </a>
+           <a href="javascript:;">首页 | </a>
+           <a href="javascript:;">帮助中心 | </a>
+           <a href="javascript:;">English | </a>
            <span></span>
          </div>
        </div>
