@@ -1,6 +1,7 @@
 <?php
     switch ($_GET['action']){
         case 'queryMobileAdJson':
+            echo [];break;
             echo json_encode([
                 [
                     'pageAdFileName' => 'https://m.jf.10086.cn/pic/m/1565663802251.jpg',
