@@ -79,23 +79,13 @@
         system.win = p.indexOf("Win") == 0;
         system.mac = p.indexOf("Mac") == 0;
         system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
-  if (system.win || system.mac || system.xll) {//如果是PC转
-    if (u.indexOf('Windows Phone') > -1) {  //win手机端
+        if (system.win || system.mac || system.xll) {//如果是PC转
+          if (u.indexOf('Windows Phone') > -1) {  //win手机端
 
-    }else {
-      window.location.href = "error.html";
-      
-  }
-}
-(function () {
-    var nowWidth = document.documentElement.clientWidth;
-    var thisWindowWidth = nowWidth > 750 ? 750 : nowWidth;
-    document.documentElement.style.fontSize = thisWindowWidth / 750 * 625 + '%';
-})();
-var provinceZones = JSON.parse('["11","31","17","71","74","51","50","83","85","89","34"]');
-var doubleAlert = "1";
-var doubleAlertTip = "0";
-
+          }else {
+            window.location.href = "error.html";
+        }
+      }
   </script>
  </body>
 </html>
